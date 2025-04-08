@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "diagnosis": "Migraine",
+      "symptoms": ["headache", "nausea", "sensitivity to light"],
+      "severity": "medium",
+      "recommendation": "Rest in dark room, use OTC pain relievers",
+      "emergency": false,
+      "ageGroups": ["teen", "adult"],
+      "genderPrevalence": {
+        "female": 1.5,
+        "male": 0.8
+      }
+    },
+    {
+      "diagnosis": "Hypertension",
+      "symptoms": ["headache", "dizziness", "blurred vision"],
+      "severity": "high",
+      "recommendation": "Consult doctor immediately",
+      "emergency": true,
+      "ageGroups": ["adult", "senior"]
+    }
+  ]
+}
